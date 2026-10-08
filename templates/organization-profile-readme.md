@@ -15,7 +15,7 @@ ARC develops modular embedded hardware and software for intelligent lighting, en
 
 **Explore real technology. Ask questions. Learn together.**
 
-Our initiative invites people to explore real engineering, understand design decisions and develop practical ideas together. We welcome education and experiments between schools, upper secondary schools, universities and families across locations. Explore the planned central [arc-open-development repository](https://github.com/arc-motion-light/arc-open-development) for architecture, product families, development evidence, licensing and collaboration policies.
+Our initiative invites people to explore real engineering, understand design decisions and develop practical ideas together. We welcome education and experiments between schools, upper secondary schools, universities and families across locations. Explore the central [arc-open-development repository](https://github.com/arc-motion-light/arc-open-development) for architecture, product families, development evidence, licensing and collaboration policies.
 
 WBA5 is the current development generation. Probe telemetry recovery is reported after a temporary Thread-configuration regression; WBA6 compilation and uninterrupted long-term reliability are not asserted as proven.
 
