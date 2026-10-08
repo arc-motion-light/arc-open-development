@@ -16,6 +16,14 @@ ARC Open Development explains our technology, preserves traceable authorship and
 
 **Open Knowledge. Traceable Authorship. Protected Intellectual Property. Commercial Responsibility.**
 
+## Education & Friendship Schools
+
+Education is one of our central motivations for sharing our engineering work. We invite schools, gymnasier, colleges, universities and families to explore real technology, develop practical experiments and share observations across locations and borders.
+
+We envision collaborations that connect curiosity about light, environment, energy and cultivation with learning from one another—whether between classrooms, university groups or generations in a family.
+
+Read more: [Education & Friendship Schools](docs/education/README.md).
+
 ## Engineering domains
 
 | Domain | Current position |
