@@ -11,3 +11,5 @@ Both files were checked against official downloads on 8 October 2026. SHA-256:
 - CC BY-NC 4.0: `41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0`
 
 These are third-party legal texts, not ARC-authored works. Do not insert ARC notices or conditions into them. There is no blanket root `LICENSE` overriding the material-specific matrix. [LICENSING](../LICENSING.md) applies the approved documentation scope and firmware policy; [the documentation approval record](DOCUMENTATION_LICENSE_REVIEW.md) supersedes the earlier pending recommendation.
+
+The separately scoped [MIT license for the documentation validator](../tools/LICENSE) uses the standard MIT text with the founder’s copyright notice. It does not replace the firmware or documentation licenses.

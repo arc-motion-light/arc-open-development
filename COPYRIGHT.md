@@ -10,7 +10,7 @@ Website: [https://arcstore.io](https://arcstore.io)
 
 This notice identifies the declared rights holder for original ARC-owned material where ownership is established. Original public documentation is licensed under [CC BY-NC 4.0](licenses/CC-BY-NC-4.0.txt) within the scope and exclusions in [LICENSING](LICENSING.md). Copyright remains with its rights holder; licensed copying, modification and redistribution are permitted under the license's terms.
 
-Original ARC-owned firmware has the separately selected PolyForm Noncommercial 1.0.0 policy. Branding assets and trademarks are **all rights reserved**, excluded from both public licenses. Executable tooling, hardware designs and third-party material have separate treatment. Third-party legal texts are not ARC-authored documentation.
+Original ARC-owned firmware has the separately selected PolyForm Noncommercial 1.0.0 policy. Branding assets and trademarks are **all rights reserved**, excluded from both public licenses. The documentation validator `tools/validate_docs.py` is MIT-licensed; other executable tooling, hardware designs and third-party material retain separate treatment. Third-party legal texts are not ARC-authored documentation.
 
 ARC Motion & Light operates as a Danish personally owned business (*enkeltmandsvirksomhed*), not an ApS or another incorporated limited company. Business registration: **CVR: 34843341**, supplied by the founder. Independent business-register verification is not claimed. This CVR presentation does not assert verified VAT registration.
 

@@ -7,7 +7,7 @@ ARC's founder approves the exact candidate for each repository release. Licensin
 - Original ARC public documentation uses approved CC BY-NC 4.0 with the scope in [LICENSING](../LICENSING.md).
 - ARC-owned firmware has the selected PolyForm Noncommercial 1.0.0 policy, subject to independent ownership and dependency review.
 - The existing official ARC logo is designated for ARC presentation; branding rights remain reserved.
-- Contributor-rights arrangements, executable tooling and hardware licensing require their own decisions.
+- MIT for `tools/validate_docs.py` is approved; contributor-rights arrangements, other executable tooling and hardware licensing require their own decisions.
 
 ## Private approval record
 

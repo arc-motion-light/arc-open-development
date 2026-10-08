@@ -2,3 +2,7 @@
 # Private review records, captures and preparation notes
 .review/
 __pycache__/
+
+# Private archive packages must never enter a publication candidate
+*.zip
+*.bundle

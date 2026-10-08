@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# Copyright (c) 2026 Juan-Antonio Søren Espinoza Pedersen
+# SPDX-License-Identifier: MIT
+# License text: tools/LICENSE (scoped to this validator)
 """Offline consistency checks for the Phase 1 documentation package.
 Not a legal review or comprehensive security audit.
 """
@@ -16,6 +19,7 @@ from urllib.parse import unquote, urlsplit
 ROOT = Path(__file__).resolve().parents[1]
 LICENSE_SHA256 = 'ffcca38841adb694b6f380647e15f17c446a4d1656fed51a1e2041d064c94cc8'
 CC_SHA256 = '41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0'
+MIT_SHA256 = '50657c05f52cf17ff0512ea897e52dffc728018247fdb851af0f06e41c8ca66f'
 OWNER = 'Juan-Antonio Søren Espinoza Pedersen'
 PRIVATE_REPORTS = ('publication/phase-1-review.md', 'publication/phase-1b-review.md')
 REQUIRED = [
@@ -44,7 +48,7 @@ REQUIRED = [
     'publication/founder-approval.md',
     'assets/README.md', 'assets/branding/arc-logo.svg', 'assets/branding/arc-logo.png',
     'assets/branding/arc-logo-icon.png', 'assets/branding/manifest.json',
-    'licenses/CC-BY-NC-4.0.txt', '.github/PULL_REQUEST_TEMPLATE.md',
+    'licenses/CC-BY-NC-4.0.txt', 'tools/LICENSE', 'docs/education/README.md', '.github/PULL_REQUEST_TEMPLATE.md',
     '.github/ISSUE_TEMPLATE/engineering-proposal.md', '.github/ISSUE_TEMPLATE/config.yml',
 ]
 
@@ -62,6 +66,14 @@ def validate(profile=None):
     cc_file = ROOT / 'licenses/CC-BY-NC-4.0.txt'
     if not cc_file.exists() or hashlib.sha256(cc_file.read_bytes()).hexdigest() != CC_SHA256:
         errors.append('Official CC BY-NC legal-code hash mismatch')
+    mit_file = ROOT / 'tools/LICENSE'
+    if not mit_file.exists() or hashlib.sha256(mit_file.read_bytes()).hexdigest() != MIT_SHA256:
+        errors.append('Scoped MIT license hash mismatch')
+    if 'SPDX-License-Identifier: MIT' not in (ROOT/'tools/validate_docs.py').read_text():
+        errors.append('Validator MIT source notice missing')
+    for path in ('README.md','LICENSING.md','COPYRIGHT.md','tools/README.md'):
+        if 'MIT' not in (ROOT/path).read_text():
+            errors.append(f'Validator MIT scope reference missing: {path}')
     links = 0
     # Narrow token patterns plus explicit private-key/service-account markers.
     # Generic words such as "key" or documentation examples are not secrets.
@@ -72,7 +84,7 @@ def validate(profile=None):
                 r'"private_key"\s*:\s*"[^\"]+']
     for p in files:
         name = str(p.relative_to(ROOT))
-        if p.suffix not in ('.md', '.txt', '.yml', '.py', '.json', '.png', '.svg') and p.name not in ('.gitignore', '.gitattributes'):
+        if p.suffix not in ('.md', '.txt', '.yml', '.py', '.json', '.png', '.svg') and p.name not in ('.gitignore', '.gitattributes', 'LICENSE'):
             errors.append(f'Unexpected publication artifact: {name}')
             continue
         if p.suffix == '.png':
@@ -183,7 +195,7 @@ def validate(profile=None):
     if (ROOT / 'LICENSE').exists() or (ROOT / '.github/profile/README.md').exists():
         errors.append('Blanket root license or incorrectly placed organization profile')
     result = {'files_checked': len(files), 'local_links_checked': links,
-              'license_sha256': LICENSE_SHA256, 'cc_license_sha256': CC_SHA256,
+              'license_sha256': LICENSE_SHA256, 'cc_license_sha256': CC_SHA256, 'mit_license_sha256': MIT_SHA256,
               'profile_package_checked': profile is not None, 'remote_configured': bool(remotes),
               'private_review_history_present': bool(historical), 'warnings': warnings,
               'errors': errors, 'scope': 'Offline documentation checks; not a legal/security clearance'}

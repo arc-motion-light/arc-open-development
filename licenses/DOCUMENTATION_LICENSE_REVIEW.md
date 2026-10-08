@@ -8,4 +8,4 @@ Covered material is original ARC-owned public documentation, including original 
 
 Branding/trademarks, executable tooling, hardware/manufacturing files and third-party material are excluded. Approved noncommercial permissions are real permissions; this policy does not prohibit all copying or adaptations. Separate commercial arrangements can address uses outside the license's permissions.
 
-Tooling/hardware licensing and contributor-rights arrangements remain separate decisions. CC BY-NC adoption does not settle ownership of future third-party contributions or give ARC commercial relicensing authority over them. Public release approval remains [pending](../publication/founder-approval.md).
+The validator has a separate approved MIT license; other tooling/hardware licensing and contributor-rights arrangements remain separate decisions. CC BY-NC adoption does not settle ownership of future third-party contributions or give ARC commercial relicensing authority over them. Public release approval remains [pending](../publication/founder-approval.md).

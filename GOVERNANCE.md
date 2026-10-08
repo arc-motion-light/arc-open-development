@@ -10,7 +10,7 @@ Separate technical maturity from repository publication state. A compiled image 
 
 Policies evolve through reviewed changes. Licensing an already released work and licensing future revisions are distinct decisions; avoid promises that all historical grants can be withdrawn. External contribution acceptance remains limited under [CONTRIBUTING](CONTRIBUTING.md).
 
-CC BY-NC 4.0 for original public documentation and use of the existing ARC logo were approved in Phase 1B. Tooling/hardware licenses and the contributor-rights agreement remain separate decisions.
+CC BY-NC 4.0 for original public documentation and use of the existing ARC logo were approved in Phase 1B. MIT for the documentation validator is approved separately. Other tooling/hardware licenses and the contributor-rights agreement remain separate decisions.
 
 Business identity: Juan-Antonio Søren Espinoza Pedersen, trading as ARC Motion & Light, Denmark; founder-supplied CVR: 34843341. Official-register verification remains incomplete.
 

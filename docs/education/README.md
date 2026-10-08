@@ -14,11 +14,11 @@ Students could follow a measurement from a sensor through firmware to a graph, i
 
 The prototypes are development platforms. Our [development status](../development-status.md) describes current achievements and remaining work, so learning projects can build on an honest picture of the technology.
 
-## Friendship Schools — and connections between gymnasier and universities
+## Friendship Schools — from classrooms to universities
 
-Friendship Schools is a vision for connecting people through shared learning across locations, countries and cultures. It extends to upper secondary schools and gymnasier, colleges and universities, with opportunities for collaboration between educational levels as well as between peer institutions.
+Friendship Schools is a vision for connecting people through shared learning across locations, countries and cultures. It extends to upper secondary schools, colleges and universities, with opportunities for collaboration between educational levels as well as between peer institutions.
 
-We envision groups asking related questions, collecting measurements in their own surroundings and comparing their observations. Two classrooms—for example, in Denmark and Greenland—could explore the same question about light or growing conditions while learning from differences in their environments and experiences. A gymnasium and a university group could also develop an experiment together and discuss how to interpret the results.
+We envision groups asking related questions, collecting measurements in their own surroundings and comparing their observations. Two classrooms—for example, in Denmark and Greenland—could explore the same question about light or growing conditions while learning from differences in their environments and experiences. An upper secondary school and a university group could also develop an experiment together and discuss how to interpret the results.
 
 These are possibilities for future collaboration, not a description of an established international network or signed institutional partnerships. The aim is to connect scientific curiosity with culture, shared knowledge and human relationships.
 
@@ -41,7 +41,7 @@ Small shared experiments can open conversations about nature, technology and eve
 
 ## An invitation to collaborate
 
-We welcome dialogue with schools, gymnasier, colleges, universities, researchers, educational organizations and families interested in these possibilities. Ideas for shared experiments, teaching activities and cross-location collaboration are welcome at [juan@arcstore.io](mailto:juan@arcstore.io).
+We welcome dialogue with schools, upper secondary schools, colleges, universities, researchers, educational organizations and families interested in these possibilities. Ideas for shared experiments, teaching activities and cross-location collaboration are welcome at [juan@arcstore.io](mailto:juan@arcstore.io).
 
 Our goal is to bring people together through curiosity, practical experimentation and shared knowledge.
 

@@ -11,7 +11,7 @@ For each candidate repository:
 - [ ] Apply approved CC BY-NC 4.0 to original public documentation with attribution; exclude executable tooling, third-party material, hardware and branding.
 - [ ] Verify official license texts and retain PolyForm unmodified.
 - [ ] Review logo provenance, faithful transformations and reserved branding rights; avoid registered-trademark claims without evidence.
-- [ ] Resolve tooling, hardware and non-brand image licensing separately.
+- [ ] Preserve the scoped MIT grant for the validator; resolve other tooling, hardware and non-brand image licensing separately.
 - [ ] Establish contributor rights sufficient for the intended public/commercial uses.
 - [ ] Check compatibility and record unresolved issues without speculative conclusions.
 - [ ] Obtain founder approval for the exact public scope.
