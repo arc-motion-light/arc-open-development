@@ -1,0 +1,35 @@
+{
+  "source_design": "Founder-designated existing ARC mark; original Logo directory left untouched",
+  "files": [
+    {
+      "path": "assets/branding/arc-logo.svg",
+      "original_basename": "arc-logo.svg",
+      "sha256": "0a09a5fb973587122f930e7de9f4992138fdcab57420732cd49cfd9af7e11dad",
+      "transformation": "Byte-for-byte copy; existing vector artwork, no tracing",
+      "view_box": "0 0 64 58"
+    },
+    {
+      "path": "assets/branding/arc-logo.png",
+      "original_basename": "arc-logo-email.png",
+      "sha256": "441cc78fa7373565569c899fb2950cdd048c32bc0c3230c499da942ce0353a2f",
+      "transformation": "Byte-for-byte copy; renamed in destination only",
+      "size": [
+        300,
+        272
+      ],
+      "alpha": true
+    },
+    {
+      "path": "assets/branding/arc-logo-icon.png",
+      "original_basename": "arc-logo.svg",
+      "sha256": "122543cd65f9890b1a064c24e59d727223c8a3fab71cd0f62f244d37a4840f5e",
+      "transformation": "SVG rendered uniformly at 8x to 512x464, then centered on transparent 512x512 canvas with 24px top/bottom padding; no recoloring, cropping, distortion or tracing",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": true
+    }
+  ],
+  "rights": "All rights reserved; branding excluded from CC BY-NC 4.0 and PolyForm Noncommercial 1.0.0"
+}

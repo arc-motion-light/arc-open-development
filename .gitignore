@@ -1,0 +1,4 @@
+.DS_Store
+# Private review records, captures and preparation notes
+.review/
+__pycache__/
